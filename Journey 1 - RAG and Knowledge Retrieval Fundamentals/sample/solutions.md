@@ -1,12 +1,16 @@
-# Prompts
+# Solutions for the Tasks from Challenge for Journey 1
 
 In this document you will find a few questions to ask about the Northwind healthcare plan. Your task is to write the code to achieve the expected completion.
+The code and expected answers are only examples, there are many other ways to achieve the same results.
+Especially the answers are non-deterministic in the LLM-context - therefore, just check whether you receive a semantically similar response!
 ___
 
 ## :question: Task 1: What Healthplans does Northwind Health offer??
+Find out what Healthplans are offered by Northwind Health
 
 <details>
   <summary>:white_check_mark: See Code!</summary>
+
     user_question = "What Healthplans does Northwind Health offer?"
     user_question_vector = get_embedding(user_question)
 
@@ -65,6 +69,7 @@ This is a lot of code to repeat everytime a new questions comes. Create a functi
 
 <details>
   <summary>:white_check_mark: See Code!</summary>
+
     def get_answer_from_question(user_question):
         # Generate embedding for the user question
         user_question_vector = get_embedding(user_question)
@@ -112,9 +117,11 @@ This is a lot of code to repeat everytime a new questions comes. Create a functi
 ___
 
 ## :question: Task 3: What is included in my Northwind Health Plus plan that is not in standard?
+Try to understand what the Northwind Health Plus Plan covers that the Northwind Standard Plan does not include.
 
 <details>
   <summary>:white_check_mark: See Code!</summary>
+
     user_question = "What is included in my Northwind Health Plus plan that is not in standard?"
     result = get_answer_from_question(user_question)
     print(result)
@@ -136,9 +143,11 @@ ___
 
 
 ## :question: Task 4: Is there a limit on how much can be expensed with PerksPlus?
+Find out whether there is a limit how much can be expensed with the PerksPlus program.
 
 <details>
   <summary>:white_check_mark: See Code!</summary>
+
     user_question = "Is there a limit on how much can be expensed with PerksPlus?"
     result = get_answer_from_question(user_question)
     print(result)
@@ -158,6 +167,7 @@ Let's test the system whether it avoids hallucination or answers with irrelevant
 
 <details>
   <summary>:white_check_mark: See Code!</summary>
+
     user_question = ""Who won the last FIFA World Cup?""
     result = get_answer_from_question(user_question)
     print(result)
