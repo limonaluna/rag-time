@@ -6,7 +6,7 @@ ___
 ## :question: Question 1: Is there a limit on how much can be expensed with PerksPlus?
 
 <details>
-  <summary>:white_check_mark: See solution!</summary>
+  <summary>:white_check_mark: See Code!</summary>
   
     ```python
     USER_MESSAGE = "Is there a limit on how much I can expense through PerksPlus?"
@@ -22,7 +22,11 @@ ___
     answer = response.choices[0].message.content
     print(answer)
     ```
+</details>
 
+<details>
+  <summary>:white_check_mark: See Expected Answer!</summary>
+  
     **Expected Answer:**
     - **Source-File:** PerksPlus.pdf  
     - **Text-Chunk:** With PerksPlus, employees have the opportunity to expense up to $1000 for fitness-related programs, making it easier and more affordable to maintain a healthy lifestyle.
