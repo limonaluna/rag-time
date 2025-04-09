@@ -57,7 +57,7 @@ ___
     | Northwind_Health_Plus_Benefits_Details.pdf    | necessary. It also does not cover services provided by non-network providers. Tips for Employees If you or someone you care about is struggling with SUD, there are a few things you can do to get the most out of your Northwind Health Plus plan: • Talk to your doctor or a mental health prof... | 7.397019      |
     | Northwind_Health_Plus_Benefits_Details.pdf    | accurate and complete information to the review team. • If your coverage is denied, talk to your doctor about appealing the decision. • If you are considering a service or medication that is not covered by Northwind Health Plus, ask your doctor about other options that may be available. Pe... | 5.692018      |
 
-  Vector search results:
+    Vector search results:
 
 
 </details>
@@ -110,7 +110,7 @@ ___
     | Northwind_Health_Plus_Benefits_Details.pdf | procedures that are typically done in a surgical center. All services must be medically necessary, and prior authorization may be required for some services. Exceptions There are some exceptions to coverage for surgical center care. The plan does not cover cosmetic or elective procedures, e... | 5.446031      |
     | Northwind_Health_Plus_Benefits_Details.pdf | questions or concerns about your coverage, it is important to contact Northwind Health Plus directly to ensure that you have the coverage you need. In addition to understanding the coverage you have, it is also important to understand the risks associated with surgery. It is important to discu... | 4.855504      |
 
-  Vector search results:
+    Vector search results:
 
 
 </details>
