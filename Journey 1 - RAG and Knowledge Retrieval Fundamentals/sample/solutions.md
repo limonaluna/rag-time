@@ -1,4 +1,4 @@
-# Solutions for the Tasks from Challenge for Journey 1
+# Solutions for the Tasks from Journey 1
 
 In this document you will find a few questions to ask about the Northwind healthcare plan. Your task is to write the code to achieve the expected completion.
 The code and expected answers are only examples, there are many other ways to achieve the same results.
@@ -113,36 +113,10 @@ This is a lot of code to repeat everytime a new questions comes. Create a functi
         return response.choices[0].message.content
 </details>
 
-
-___
-
-## :question: Task 3: What is included in my Northwind Health Plus plan that is not in standard?
-Try to understand what the Northwind Health Plus Plan covers that the Northwind Standard Plan does not include.
-
-<details>
-  <summary>:white_check_mark: See Code!</summary>
-
-    user_question = "What is included in my Northwind Health Plus plan that is not in standard?"
-    result = get_answer_from_question(user_question)
-    print(result)
-</details>
-
-<details>
-  <summary>:white_check_mark: See Expected Answer!</summary>
-  
-    - Source-File: Benefit_Options.pdf  
-    - Expected Answer: Northwind Health Plus offers the following additional coverage compared to Northwind Standard:  
-        - Emergency services (in-network and out-of-network)  
-        - Mental health and substance abuse coverage  
-        - Out-of-network services  
-        - Wider range of prescription drug coverage
-
-</details>
-
 ___
 
 
-## :question: Task 4: Is there a limit on how much can be expensed with PerksPlus?
+## :question: Task 3: Is there a limit on how much can be expensed with PerksPlus?
 Find out whether there is a limit how much can be expensed with the PerksPlus program.
 
 <details>
@@ -161,8 +135,10 @@ Find out whether there is a limit how much can be expensed with the PerksPlus pr
 
 </details>
 
+___
 
-## :question: Task 5: Test Hallucinations
+
+## :question: Task 4: Test Hallucinations
 Let's test the system whether it avoids hallucination or answers with irrelevant information when it shouldn't. Think of a question that surely has nothing to do with the content of the Search index and test your systems ability to handle this!
 
 <details>
