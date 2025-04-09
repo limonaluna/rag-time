@@ -10,7 +10,7 @@ When you create a GitHub Codespace, four processes occur:
 3. A connection to the Codespace is made.
 4. A post-creation setup is made.
 
-![Codespace Creation Process](images/journey0-codespace-creation-process.png)
+![Codespace Creation Process](./../images/journey0-codespace-creation-process.png)
 
 Github Codespaces can be used via your organization (if your company has enabled it),or from your personal account. Usage through the personal account is free for up to 60 hours per month. More details [here](https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces).
 
@@ -31,7 +31,7 @@ To use GitHub Codespaces, you need:
 
 GitHub will automatically provision a development container based on the detected environment (e.g., Node.js, Python, .NET) and open it in your browser using VS Code Web.
 
-![Launch Codespace](images/journey0-launch-codespace.png)
+![Launch Codespace](./../images/journey0-launch-codespace.png)
 
 
 #### Inside the Codespace
@@ -66,7 +66,7 @@ It helps you:
 6. Choose a local folder where the repo will be cloned
 7. When prompted, click **"Open"** to open the repo in VS Code
 
-![Clone repository locally](images/journey0-clone-repo-locally.png)
+![Clone repository locally](./../images/journey0-clone-repo-locally.png)
 
 #### Create virtual environment
 ##### 1. If you're not already in the folder where you want the environment:
