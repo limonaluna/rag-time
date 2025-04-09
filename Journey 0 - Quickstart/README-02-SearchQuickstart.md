@@ -24,9 +24,9 @@ The next step is to connect to a data source to use for the search index.
 ### Vectorize your text
 In this step, specify the embedding model for vectorizing chunked data.
 
-1. Choose the embedding model
+1. Choose the source of the embedding model (Azure OpenAI)
 2. Choose the Azure subscription
-3. Make selections accor
+3. Select the embedding model (e.g. text-embedding-ada-002)
 4. Specify that you want the search service to authenticate using the managed identity
 5. Select the checkbox that acknowledges the billing effects of using these resources
 
@@ -34,6 +34,7 @@ In this step, specify the embedding model for vectorizing chunked data.
 
 ### Vectorize and enrich your images
 The health plan PDFs include a corporate logo, but otherwise there are no images. You can skip this step if you're using the sample documents.
+
 ![Vectorize images](./../images/journey0-vectorize-images.png)
 
 However, if you work with content that includes useful images, you can apply AI in two ways:
@@ -93,5 +94,6 @@ When the wizard completes the configuration, it creates the following objects:
 
 
 - Search for a specific question and review the results (Sample question: "which plan has the lowest deductible?")
-- Each document is a chunk of the original PDF. The title field shows which PDF the chunk comes from. Each chunk is quite long. You can copy and paste one into a text editor to read the entire value.
 ![Search Question](./../images/journey0-search-question.png)
+
+- Each document is a chunk of the original PDF. The title field shows which PDF the chunk comes from. Each chunk is quite long. You can copy and paste one into a text editor to read the entire value.
