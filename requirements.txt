@@ -1,0 +1,5 @@
+dotenv
+azure-ai-inference[opentelemetry]
+azure-search-documents 
+azure-identity
+openai
