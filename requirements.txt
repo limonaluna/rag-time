@@ -7,3 +7,5 @@ openai
 ipykernel
 pandas
 jinja2
+datasets
+tabulate
